@@ -1,0 +1,98 @@
+.home {
+  text-align: left;
+}
+
+.correo {
+  color: gray;
+}
+
+.c-fondo {
+  background: linear-gradient(to right, rgba(14, 14, 14, 0.885), rgba(45, 8, 8, 0.992));
+  backdrop-filter: blur(5px);
+  backdrop-filter: opacity(50%);
+  background-color: black;
+}
+
+
+
+
+
+@media (max-width:412px){
+  .aaa{
+    margin-bottom: -50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .c-fondo {
+    height: 100vh;
+  }
+  .aaa{
+    margin-bottom: -50px;
+  }
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+ 
+  .c-fondo {
+    height: 100%;
+  }
+
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+  .c-fondo {
+    height: 100%;
+  }
+}
+
+@media only screen and (width: 1024px) and (height: 600px) {
+  .c-fondo {
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+body {
+  background: linear-gradient(to right, rgba(14, 14, 14, 0.885), rgba(45, 8, 8, 0.992));
+  backdrop-filter: blur(5px);
+  backdrop-filter: opacity(50%);
+  background-color: black;
+}
+
+.dsc {
+  text-align: left;
+  color: gray;
+}
+
+.red {
+  color: #d60606c5;
+}
+
+.color-acord {
+  background-color: rgba(14, 14, 14, 0.885);
+  /* Código de color negro */
+}
+
+.accordion-button {
+  color: #ff0000;
+}
+
+.acor {
+  border: 1px solid rgb(112, 112, 112);
+  border-radius: 10px;
+
+}
+
+.b-acor {
+  border-top: none;
+  color: white;
+  border-bottom: none;
+}
